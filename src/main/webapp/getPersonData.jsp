@@ -11,7 +11,7 @@
 <jsp:useBean id="storage" class="com.example.servletjspdemo.service.StorageService" scope="application" />
 <jsp:useBean id="person" class="com.example.servletjspdemo.domain.Person" scope="session" />
 
-<form action="addPerson.jsp">
+<form action="addPerson.jsp" metghod="get">
 
   First name :<input type="text" name="firstName" value="${person.firstName}" /><br />
   Year of birth :<input type="text"  name="yob" value="${person.yob}" /><br />
